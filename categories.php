@@ -6,8 +6,8 @@ include "partials-front/menu.php";
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
         <div class="container">
-            <h2 class="text-center">category of attractive dishes</h2>
-            <h3 class="text-center">Category of attractive dishes</h3>
+            <h2 class="text-center">Danh mục các món ăn hấp dẫn</h2>
+            <h3 class="text-center">Không thể chối từ</h3>
 
             <?php
             //display all the categories that are active
