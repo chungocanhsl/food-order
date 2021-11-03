@@ -14,7 +14,7 @@ if($result==true) {
 	//query oke
 	$_SESSION['delete'] = 
 "<div class='success'>
-	Admin Delete successfully 
+	Admin deleted successfully
 	</div>";
 	header('Location: '.SITEURL.'admin/manage-admin.php');
 } else {

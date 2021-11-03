@@ -7,8 +7,8 @@ include "partials-front/menu.php";
         <div class="container">
             
             <form action="<?= SITEURL?>food-search.php" method="POST">
-                <input type="search" name="search" placeholder="Search for Food.." required>
-                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+                <input type="search" name="search" placeholder="Nhập tên món ăn" required>
+                <input type="submit" name="submit" value="Tìm kiếm" class="btn btn-primary">
             </form>
 
         </div>
@@ -78,7 +78,7 @@ include "partials-front/menu.php";
     } else {
         //food not available
         echo 
-        "<div class='error'>Food not found</div>";
+        "<div class='error'>Không tìm thấy món ăn</div>";
     }
     ?>
 

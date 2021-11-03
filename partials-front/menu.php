@@ -7,10 +7,10 @@ include "db/config.php";
     <meta charset="UTF-8">
     <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
+    <title>Order food now!!!</title>
 
     <!-- Link our CSS file -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -18,24 +18,24 @@ include "db/config.php";
     <section class="navbar">
         <div class="container">
             <div class="logo">
-                <a href="#" title="Logo">
-                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                <a href="<?= SITEURL?>" title="Logo">
+                    <img src="images/logo.jpg" alt="Restaurant Logo" class="img-responsive">
                 </a>
             </div>
 
             <div class="menu text-right">
                 <ul>
                     <li>
-                        <a href="<?= SITEURL?>">Home</a>
+                        <a href="<?= SITEURL?>">Trang chủ</a>
                     </li>
                     <li>
-                        <a href="<?= SITEURL?>categories.php">Categories</a>
+                        <a href="<?= SITEURL?>categories.php">Danh mục</a>
                     </li>
                     <li>
-                        <a href="<?= SITEURL?>foods.php">Foods</a>
+                        <a href="<?= SITEURL?>foods.php">Món ăn hấp dẫn</a>
                     </li>
                     <li>
-                        <a href="<?= SITEURL?>categories.php">Contact</a>
+                        <a href="">Liên hệ</a>
                     </li>
                 </ul>
             </div>

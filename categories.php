@@ -6,7 +6,8 @@ include "partials-front/menu.php";
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
         <div class="container">
-            <h2 class="text-center">Explore Foods</h2>
+            <h2 class="text-center">category of attractive dishes</h2>
+            <h3 class="text-center">Category of attractive dishes</h3>
 
             <?php
             //display all the categories that are active

@@ -86,9 +86,9 @@ include 'partials/menu.php';
 					<td><?= $username;?></td>
 					<td>
 						<a href="<?php echo SITEURL?>admin/update-password.php?id=<?= $id ?>" class="btn-primary">Change password</a>
-						<a href="<?php echo SITEURL?>admin/update-admin.php?id=<?= $id ?>" class="btn-secondary">Update Admin 
+						<a href="<?php echo SITEURL?>admin/update-admin.php?id=<?= $id ?>" class="btn-secondary">Update Admin
 						</a>
-						<a href="<?php echo SITEURL?>admin/delete-admin.php?id=<?= $id ?>" class="btn-danger">Delete Admin 
+						<a href="<?php echo SITEURL?>admin/delete-admin.php?id=<?= $id ?>" class="btn-danger">Delete Admin
 						</a>
 					</td>
 				</tr>

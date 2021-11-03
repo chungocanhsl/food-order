@@ -82,7 +82,11 @@ if($count > 0) {
 } else {
     //food not available
      echo 
-        "<div class='error'>Food not found</div>";
+        "<div class='error'>
+            <h3>Can't find food</h3>
+           
+        </div>";
+
 }
 ?>
             

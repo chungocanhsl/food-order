@@ -19,18 +19,18 @@ include 'partials/menu.php';
 		<form action="" method="post">
 			<table class="tbl-30">
 				<tr>
-					<td>Full name: </td>
-					<td><input type="text" name="fullname" placeholder="Enter you full name"></td>
+					<td>Fullname: </td>
+					<td><input type="text" name="fullname" placeholder="Enter the fullname"></td>
 				</tr>
 
 				<tr>
 					<td>Username: </td>
-					<td><input type="text" name="username" placeholder="Enter you username"></td>
+					<td><input type="text" name="username" placeholder="Enter username"></td>
 				</tr>
 
 				<tr>
 					<td>Password: </td>
-					<td><input type="password" name="password" placeholder="Enter you password"></td>
+					<td><input type="password" name="password" placeholder="Enter password"></td>
 				</tr>
 				<tr>
 					<td colspan="2">
@@ -71,7 +71,7 @@ if(isset($_POST['submit'])) {
 		//data inserted
 		//create a session variable to display message
 		
-		$_SESSION['add'] = "Admin Added Successfully";
+		$_SESSION['add'] = "Admin added succesfully";
 		header("Location: ".SITEURL.'admin/manage-admin.php');
 	} else {
 		//failed insest

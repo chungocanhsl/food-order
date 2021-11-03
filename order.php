@@ -134,7 +134,7 @@ if(isset($_GET['food_id'])) {
 
         if($result2==true) {
             //query oke and save in database 
-            $_SESSION['order'] = "<div class='success text-center'>Food orderd successfully</div>";
+            $_SESSION['order'] = "<div class='success text-center'>Món ăn của bạn đã order thành công!!! Chúc bạn ngon miệng <3</div>";
             header("location: ".SITEURL);
         }else {
             //failed to save order

@@ -1,6 +1,7 @@
 <?php
 include 'partials/menu.php'; 
 //include 'db/config.php';
+
 ?>
 	
 
@@ -8,7 +9,7 @@ include 'partials/menu.php';
 	<!----Main Content Section start----->
 	<div class="main-content">
 		<div class="wrapper">
-			<h1>DASHBOARD</h1>
+			<h1>Dashboard - Hello username: <?= $_SESSION["user"] ?></h1>
 			<?php 
 if(isset($_SESSION['login'])) {
 	echo $_SESSION['login'];
@@ -52,7 +53,7 @@ if(isset($_SESSION['login'])) {
 				?>
 				<h1><?= $count3?></h1>
 				<br/>
-				Total Orders
+                Total orders
 			</div>
 
 			<div class="col-4 text-center">
@@ -68,8 +69,8 @@ if(isset($_SESSION['login'])) {
 				?>
 				<h1>$<?=$total_revenue?></h1>
 				<br/>
-				Revenue Generated
-			</div>
+				Revenue
+            </div>
 
 			<div class="clearfix">
 				

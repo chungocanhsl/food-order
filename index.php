@@ -7,8 +7,8 @@ include "partials-front/menu.php";
         <div class="container">
             
             <form action="<?= SITEURL?>food-search.php" method="POST">
-                <input type="search" name="search" placeholder="Search for Food.." required>
-                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+                <input type="search" name="search" placeholder="Nhập tên món ăn" required>
+                <input type="submit" name="submit" value="Tìm kiếm" class="btn btn-primary">
             </form>
 
         </div>
@@ -25,7 +25,7 @@ include "partials-front/menu.php";
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
         <div class="container">
-            <h2 class="text-center">Explore Foods</h2>
+            <h2 class="text-center">Explore foods</h2>
     <?php
     //create sql query to display categories from db
     $sql = "select * from tbl_category where active='Yes' and featured = 'Yes' limit 6";
@@ -175,7 +175,7 @@ if($count2 > 0) {
         </div>
 
         <p class="text-center">
-            <a href="#">See All Foods</a>
+            <a href="#">See all the foods</a>
         </p>
     </section>
     <!-- fOOD Menu Section Ends Here -->

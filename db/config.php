@@ -2,7 +2,7 @@
 
 session_start();
 
-define('SITEURL','http://localhost:8080/food/');
+define('SITEURL','http://localhost:8080/food-order/');
 
 define('LOCALHOST','localhost');
 define('USERNAME','root');

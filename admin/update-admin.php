@@ -4,7 +4,7 @@ include 'partials/menu.php';
 
 <div class="maincontent">
 	<div class="wrapper">
-		<h1>Update admin</h1>
+		<h1>Cập nhật admin</h1>
 		<br>
 		<br>
 
@@ -39,20 +39,20 @@ if($result==true) {
 		<form action="" method="post">
 			<table class="tbl-30">
 				<tr>
-					<td>Full name: </td>
-					<td><input type="text" name="fullname" placeholder="Enter you full name" value="<?= $fullname?>"></td>
+					<td>Họ tên: </td>
+					<td><input type="text" name="fullname" placeholder="Nhập đầy đủ họ tên" value="<?= $fullname?>"></td>
 				</tr>
 
 				<tr>
 					<td>Username: </td>
-					<td><input type="text" name="username" placeholder="Enter you username" value="<?= $username?>"></td>
+					<td><input type="text" name="username" placeholder="Nhập username" value="<?= $username?>"></td>
 				</tr>
 
 				
 				<tr>
 					<td colspan="2">
 						<input hidden ="text" name="id" value="<?= $id?>">
-						<input type="submit" name="submit" value="Update Admin" class="btn-secondary">
+						<input type="submit" name="submit" value="Cập nhật Admin" class="btn-secondary">
 					</td>
 				</tr>
 			</table>
@@ -82,11 +82,11 @@ if(isset($_POST['submit'])){
 	if($result==true) {
 		//query executed and admin updated
 		
-		$_SESSION['update'] = "<div class='success'>Admin updated successfully</div>";
+		$_SESSION['update'] = "<div class='success'>Admin được cập nhật thành công</div>";
 		header("Location: ".SITEURL.'admin/manage-admin.php');
 	} else {
 		//failed to update admin
-		$_SESSION['update'] = "<div class='error'>Failed to update admin</div>";
+		$_SESSION['update'] = "<div class='error'>Cập nhật admin gặp lỗi</div>";
 		header("Location: ".SITEURL.'admin/manage-admin.php');
 	}
 }
