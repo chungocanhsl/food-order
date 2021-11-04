@@ -25,7 +25,7 @@ include "partials-front/menu.php";
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
         <div class="container">
-            <h2 class="text-center">Explore foods</h2>
+            <h2 class="text-center">Khám phá ẩm thực tinh túy</h2>
     <?php
     //create sql query to display categories from db
     $sql = "select * from tbl_category where active='Yes' and featured = 'Yes' limit 6";
@@ -93,7 +93,7 @@ include "partials-front/menu.php";
     <!-- fOOD MEnu Section Starts Here -->
     <section class="food-menu">
         <div class="container">
-            <h2 class="text-center">Food Menu</h2>
+            <h2 class="text-center">Thực đơn món ăn</h2>
 <?php
 //getting foods from db that are active and featured
 $sql2 = "select * from tbl_food where active='Yes' and featured='Yes'";
