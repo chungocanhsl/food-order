@@ -1,6 +1,6 @@
 <?php 
 include 'partials/menu.php';
-//include 'db/config.php';
+
 ?>
 
 <div class="main-content">
@@ -73,10 +73,12 @@ if(isset($_POST['submit'])) {
 		
 		$_SESSION['add'] = "Admin added succesfully";
 		header("Location: ".SITEURL.'admin/manage-admin.php');
+		exit;
 	} else {
 		//failed insest
 		$_SESSION['add'] = "Failed to add admin";
 		header("Location: ".SITEURL.'admin/add-admin');
+		exit;
 	}
 }
 ?>

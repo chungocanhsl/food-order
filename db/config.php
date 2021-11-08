@@ -1,6 +1,7 @@
 <?php 
 
-session_start();
+//session_start();
+if ( empty(session_id()) ) session_start();
 
 define('SITEURL','http://localhost:8080/food-order/');
 
@@ -13,3 +14,4 @@ define('DATABASE','food');
 $conn = mysqli_connect(LOCALHOST,USERNAME,PASSWORD) or die(mysqli_error());
 
 $db_select = mysqli_select_db($conn,DATABASE) or die(mysqli_error());
+?>

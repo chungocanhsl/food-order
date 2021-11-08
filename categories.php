@@ -1,9 +1,9 @@
 <?php 
-include "partials-front/menu.php";
+include "./partials-front/menu.php";
 ?>
 
 
-    <!-- CAtegories Section Starts Here -->
+    <!-- categories-->
     <section class="categories">
         <div class="container">
             <h2 class="text-center">Danh mục các món ăn hấp dẫn</h2>
@@ -70,7 +70,7 @@ include "partials-front/menu.php";
             <div class="clearfix"></div>
         </div>
     </section>
-    <!-- Categories Section Ends Here -->
+    <!-- categories end -->
 
 <?php 
 include "partials-front/footer.php";

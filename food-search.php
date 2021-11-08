@@ -2,24 +2,24 @@
 include "partials-front/menu.php";
 ?>
 
-    <!-- fOOD sEARCH Section Starts Here -->
+    <!--food-search-->
     <section class="food-search text-center">
         <div class="container">
             <?php
             $search = mysqli_real_escape_string($conn,$_POST['search']); 
             ?>
-            <h2>Foods on Your Search <a href="#" class="text-white">"<?= $search?>"</a></h2>
+            <h2>Món ăn bạn tìm kiếm <a href="#" class="text-white">"<?= $search?>"</a></h2>
 
         </div>
     </section>
-    <!-- fOOD sEARCH Section Ends Here -->
+    <!-- food-search end-->
 
 
 
-    <!-- fOOD MEnu Section Starts Here -->
+    <!-- food menu-->
     <section class="food-menu">
         <div class="container">
-            <h2 class="text-center">Food Menu</h2>
+            <h2 class="text-center">Thực đơn món ăn</h2>
 <?php 
 //get the search keyword
 $search = $_POST['search'];
@@ -100,7 +100,7 @@ if($count > 0) {
         </div>
 
     </section>
-    <!-- fOOD Menu Section Ends Here -->
+    <!-- food-menu-->
 
     <?php 
 include "partials-front/footer.php";

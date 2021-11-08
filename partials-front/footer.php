@@ -1,4 +1,4 @@
-  <!-- social Section Starts Here -->
+  <!-- social-->
     <section class="social">
         <div class="container text-center">
             <ul>
@@ -14,15 +14,15 @@
             </ul>
         </div>
     </section>
-    <!-- social Section Ends Here -->
+    <!-- social End -->
 
-    <!-- footer Section Starts Here -->
+    <!-- footer-->
     <section class="footer">
         <div class="container text-center">
-            <p>All rights reserved. <a href="#">Hi</a></p>
+            <p>Hihi <a href="#">AnhOke</a></p>
         </div>
     </section>
-    <!-- footer Section Ends Here -->
+    <!-- footer end -->
 
 </body>
 </html>

@@ -76,7 +76,7 @@ if(isset($_SESSION['update'])) {
 						}
 						?>
 					</td>
-					<td><?= $status ?></td>
+
 					<td><?= $customer_name ?></td>
 					<td><?= $customer_contact ?></td>
 					<td><?= $customer_email ?></td>
@@ -84,8 +84,7 @@ if(isset($_SESSION['update'])) {
 					<td>
 						<a href="<?= SITEURL?>admin/update-order.php?id=<?= $id?>" class="btn-secondary">Update Order 
 						</a>
-						<a href="#" class="btn-danger">Delete Order 
-						</a>
+
 					</td>
 				</tr>
 

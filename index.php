@@ -1,8 +1,8 @@
 <?php 
-include "partials-front/menu.php";
+include "./partials-front/menu.php";
 ?>
 
-    <!-- fOOD sEARCH Section Starts Here -->
+    <!--food-search-->
     <section class="food-search text-center">
         <div class="container">
             
@@ -13,7 +13,7 @@ include "partials-front/menu.php";
 
         </div>
     </section>
-    <!-- fOOD sEARCH Section Ends Here -->
+     <!--food-end-->
 
     <?php
     if(isset($_SESSION['order'])) {
@@ -22,7 +22,7 @@ include "partials-front/menu.php";
     } 
     ?>
 
-    <!-- CAtegories Section Starts Here -->
+    <!--categories-->
     <section class="categories">
         <div class="container">
             <h2 class="text-center">Khám phá ẩm thực tinh túy</h2>
@@ -88,9 +88,9 @@ include "partials-front/menu.php";
             <div class="clearfix"></div>
         </div>
     </section>
-    <!-- Categories Section Ends Here -->
+     <!--categories end-->
 
-    <!-- fOOD MEnu Section Starts Here -->
+    <!--food-menu-->
     <section class="food-menu">
         <div class="container">
             <h2 class="text-center">Thực đơn món ăn</h2>
@@ -175,10 +175,10 @@ if($count2 > 0) {
         </div>
 
         <p class="text-center">
-            <a href="#">See all the foods</a>
+            <a href="#">Xem tất cả món ăn
         </p>
     </section>
-    <!-- fOOD Menu Section Ends Here -->
+     <!--food-menu end-->
 
   <?php 
 include "partials-front/footer.php";

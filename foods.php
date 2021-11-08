@@ -2,7 +2,7 @@
 include "partials-front/menu.php";
 ?>
 
-    <!-- fOOD sEARCH Section Starts Here -->
+    <!--food-search-->
     <section class="food-search text-center">
         <div class="container">
             
@@ -13,11 +13,11 @@ include "partials-front/menu.php";
 
         </div>
     </section>
-    <!-- fOOD sEARCH Section Ends Here -->
+    <!--food-search end-->
 
 
 
-    <!-- fOOD MEnu Section Starts Here -->
+     <!--food-menu-->
     <section class="food-menu">
         <div class="container">
             <h2 class="text-center">Food Menu</h2>
@@ -93,7 +93,7 @@ include "partials-front/menu.php";
         </div>
 
     </section>
-    <!-- fOOD Menu Section Ends Here -->
+     <!--food-menu end-->
 
    <?php 
 include "partials-front/footer.php";

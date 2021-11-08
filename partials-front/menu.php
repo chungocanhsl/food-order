@@ -5,7 +5,6 @@ include "db/config.php";
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order food now!!!</title>
 
@@ -14,7 +13,7 @@ include "db/config.php";
 </head>
 
 <body>
-    <!-- Navbar Section Starts Here -->
+    <!-- Navbar-->
     <section class="navbar">
         <div class="container">
             <div class="logo">
@@ -43,4 +42,4 @@ include "db/config.php";
             <div class="clearfix"></div>
         </div>
     </section>
-    <!-- Navbar Section Ends Here -->
+    <!-- Navbar end-->

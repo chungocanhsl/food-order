@@ -23,22 +23,22 @@ if(isset($_GET['category_id'])) {
 }
 ?>
 
-    <!-- fOOD sEARCH Section Starts Here -->
+    <!-- food-search -->
     <section class="food-search text-center">
         <div class="container">
             
-            <h2>Foods on <a href="#" class="text-white">"<?= $category_title?>"</a></h2>
+            <h2>Danh mục thực đơn của <a href="#" class="text-white">"<?= $category_title?>"</a></h2>
 
         </div>
     </section>
-    <!-- fOOD sEARCH Section Ends Here -->
+    <!--food-search end-->
 
 
 
-    <!-- fOOD MEnu Section Starts Here -->
+    <!--food-menu-->
     <section class="food-menu">
         <div class="container">
-            <h2 class="text-center">Food Menu</h2>
+            <h2 class="text-center">Thực đơn món ăn</h2>
 <?php 
 //create sql query to get foods based on selected category
 $sql2 = "select * from tbl_food where category_id = $category_id";
@@ -113,7 +113,7 @@ if($count2 > 0) {
         </div>
 
     </section>
-    <!-- fOOD Menu Section Ends Here -->
+    <!-- food-menu end-->
 
     <?php 
 include "partials-front/footer.php";

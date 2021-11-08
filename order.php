@@ -36,7 +36,7 @@ if(isset($_GET['food_id'])) {
 }
 ?>
 
-    <!-- fOOD sEARCH Section Starts Here -->
+    <!--food-search-->
     <section class="food-search">
         <div class="container">
             
@@ -132,6 +132,8 @@ if(isset($_GET['food_id'])) {
         //execute query 
         $result2 = mysqli_query($conn,$sql2);
 
+
+
         if($result2==true) {
             //query oke and save in database 
             $_SESSION['order'] = "<div class='success text-center'>Món ăn của bạn đã order thành công!!! Chúc bạn ngon miệng <3</div>";
@@ -150,7 +152,7 @@ if(isset($_GET['food_id'])) {
 
         </div>
     </section>
-    <!-- fOOD sEARCH Section Ends Here -->
+    <!--food-search end-->
 
     <?php 
 include "partials-front/footer.php";

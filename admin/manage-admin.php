@@ -1,6 +1,6 @@
 	<?php
 include 'partials/menu.php';
-//include 'db/config.php'; 
+
 ?>
 	
 
@@ -79,7 +79,7 @@ include 'partials/menu.php';
 							$username = $rows['username'];
 
 							//hien thi du lieu ra bang 
-							//?>
+							?>
 							<tr>
 					<td><?=$sn++;?></td>
 					<td><?= $fullname;?></td>

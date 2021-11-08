@@ -9,5 +9,6 @@ if(!isset($_SESSION['user'])) {
 	<div class='error text-center'>Please login to access Admin Panel </div>
 	";
 	header("Location: ". SITEURL."admin/login.php");
+	exit;
 }
 ?>
